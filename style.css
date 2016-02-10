@@ -35,12 +35,13 @@
 			background:#333;
 			width:190px;
 			color:#fff;
-			height:20px;
+			height:35px;
 		     -moz-border-radius: 20px;
 		    -webkit-border-radius: 20px;
 		    -khtml-border-radius: 20px;
 		    border-radius: 20px;
 		    text-align:center;
+			float:auto;
 		}
 		#timer {
 			width:70px;
@@ -57,10 +58,11 @@
 			float:right;
 			padding:0px;
 			color:#fff;
-			height:50px;
+			height:40px;
 			margin:20px;
 			background:#fff;
 			border:3px solid #4889a3;
+			text-align:center;
 		}
 		.box1 {
 			background:#1E3F6E;
