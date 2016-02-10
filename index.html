@@ -48,8 +48,8 @@
 			}
 		}
 		function showPosition(position) {
-			x.innerHTML = "Latitude: <br>" + position.coords.latitude; 
-			y.innerHTML= "Longitude: <br>" + position.coords.longitude;	
+			x.innerHTML = "Latitude: <br>" + position.coords.latitude.toFixed(3); 
+			y.innerHTML= "Longitude: <br>" + position.coords.longitude.toFixed(3);	
 			
 			var latlon = position.coords.latitude + "," + position.coords.longitude;
 
